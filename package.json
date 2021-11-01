@@ -1,0 +1,26 @@
+{
+  "name": "typescript-learn",
+  "version": "1.0.0",
+  "description": "TypeScript 学习",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shunyue1320/TypeScript-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shunyue1320/TypeScript-learn/issues"
+  },
+  "homepage": "https://github.com/shunyue1320/TypeScript-learn#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.58.3",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.4"
+  }
+}
