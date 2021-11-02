@@ -4,6 +4,7 @@ import 函数类型 from './3.函数类型'
 import 类 from './4.类'
 import 接口 from './5.接口'
 import 泛型 from './6.泛型'
+import 兼容性 from './7.兼容性'
 
 
 console.log(
@@ -12,5 +13,6 @@ console.log(
   函数类型,
   类,
   接口,
-  泛型
+  泛型,
+  兼容性,
 )
