@@ -8,6 +8,7 @@ import 兼容性 from './7.兼容性'
 import 类型保护 from './8.类型保护'
 import 类型推断 from './9.类型推断'
 import 交叉类型 from './10.交叉类型'
+import 条件类型 from './11.条件类型'
 
 console.log(
   基础类型,
@@ -18,5 +19,7 @@ console.log(
   泛型,
   兼容性,
   类型保护,
+  类型推断,
   交叉类型,
+  条件类型,
 )
