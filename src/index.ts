@@ -12,6 +12,7 @@ import 条件类型 from './11.条件类型'
 import 内置类型 from './12.内置类型'
 import 装包和拆包 from './13.装包和拆包'
 import 自定义类型 from './14.自定义类型'
+import unknown from './15.unknown'
 
 console.log(
   基础类型,
@@ -28,4 +29,5 @@ console.log(
   内置类型,
   装包和拆包,
   自定义类型,
+  unknown,
 )
