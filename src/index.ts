@@ -10,6 +10,7 @@ import 类型推断 from './9.类型推断'
 import 交叉类型 from './10.交叉类型'
 import 条件类型 from './11.条件类型'
 import 内置类型 from './12.内置类型'
+import 装包和拆包 from './13.装包和拆包'
 
 console.log(
   基础类型,
@@ -24,4 +25,5 @@ console.log(
   交叉类型,
   条件类型,
   内置类型,
+  装包和拆包,
 )
