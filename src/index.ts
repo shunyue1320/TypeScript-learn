@@ -5,7 +5,7 @@ import 类 from './4.类'
 import 接口 from './5.接口'
 import 泛型 from './6.泛型'
 import 兼容性 from './7.兼容性'
-
+import 类型保护 from './8.类型保护'
 
 console.log(
   基础类型,
@@ -15,4 +15,5 @@ console.log(
   接口,
   泛型,
   兼容性,
+  类型保护,
 )
