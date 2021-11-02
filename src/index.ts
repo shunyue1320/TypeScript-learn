@@ -15,6 +15,7 @@ import 自定义类型 from './14.自定义类型'
 import unknown from './15.unknown'
 import 模块和命名空间 from './16.模块和命名空间'
 import 类型声明 from './17.类型声明'
+import 扩展全局变量类型 from './18.扩展全局变量类型'
 
 console.log(
   基础类型,
@@ -34,4 +35,5 @@ console.log(
   unknown,
   模块和命名空间,
   类型声明,
+  扩展全局变量类型
 )
