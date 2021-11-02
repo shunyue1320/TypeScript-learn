@@ -14,6 +14,7 @@ import 装包和拆包 from './13.装包和拆包'
 import 自定义类型 from './14.自定义类型'
 import unknown from './15.unknown'
 import 模块和命名空间 from './16.模块和命名空间'
+import 类型声明 from './17.类型声明'
 
 console.log(
   基础类型,
@@ -32,4 +33,5 @@ console.log(
   自定义类型,
   unknown,
   模块和命名空间,
+  类型声明,
 )
