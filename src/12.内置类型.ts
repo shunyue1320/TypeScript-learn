@@ -64,7 +64,7 @@ type PickPerson = Pick<Person, 'name' | 'age'> // 在已有类型中挑选所需
 
 // 5. Record记录类型
 type Record<K extends keyof any, T> = { [P in K]  : T }
-let person: Record<string, any> = { name: 'zf', age: 11 };
+let person: Record<string, any> = { name: '456', age: 11 };
 
 // 实现map方法，我们经常用record类型表示映射类型
 function map<T extends keyof any, K, U>(obj: Record<T, K>, callback: (item: K, key: T) => U) {
@@ -74,7 +74,7 @@ function map<T extends keyof any, K, U>(obj: Record<T, K>, callback: (item: K, k
   }
   return result
 }
-const r = map({ name: 'zf', age: 11 }, (item, key) => {
+const r = map({ name: '456', age: 11 }, (item, key) => {
   return item
 });
 
@@ -82,9 +82,9 @@ const r = map({ name: 'zf', age: 11 }, (item, key) => {
 
 // 6. Omit忽略属性
 let person2 = {
-  name: 'zhufeng',
+  name: '123',
   age: 11,
-  address: '回龙观'
+  address: '456'
 }
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>> // Omit 源码
 type OmitAddress = Omit<typeof person2, 'address'> // type OmitAddress = { name: string; age: number; }

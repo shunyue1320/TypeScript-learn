@@ -26,7 +26,7 @@ function Proxify<T>(obj: T):Proxify<T> {
   return result
 }
 
-let props = { name: 'zhufeng', age: 11 }
+let props = { name: '123', age: 11 }
 let proxpProps = Proxify(props) // let proxyProps: Proxify<{ name: string; age: number; }>
 console.log('1. 装包', proxpProps, proxpProps.name.get())
 
@@ -41,7 +41,7 @@ function unProxify<T>(proxpProps:Proxify<T>):T{
   return result
 }
 let proxy = unProxify(proxpProps)
-console.log('2. 拆包', proxy) // { name: 'zhufeng', age: 11 }
+console.log('2. 拆包', proxy) // { name: '123', age: 11 }
 
 
 

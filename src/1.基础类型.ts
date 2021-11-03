@@ -66,7 +66,6 @@ void类型 = undefined;
 // void类型 = true; // Type 'boolean' is not assignable to type 'void'.
 console.log('7. void类型', void类型)
 
-
 // 8. never类型 -------------------------------
 // 任何类型的子类型, never 代表不会出现的值。不能把其他类型赋值给never
 function error(message: string): never {

@@ -3,7 +3,7 @@ console.log('装包和拆包 -------------------------------')
 // 1. unknown类型
 // unknown类型，任何类型都可以赋值为unknown类型。 它是 any 类型对应的安全类型
 let unknown:unknown;
-unknown = 'zf';
+unknown = '123';
 unknown = 11;
 // 不能访问unknown类型上的属性，不能作为函数、类来使用
 

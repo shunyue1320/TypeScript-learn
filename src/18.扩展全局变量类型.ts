@@ -10,7 +10,7 @@ interface String {
 String.prototype.double = function () {
   return this as string + this;
 }
-let str = 'zhufeng';
+let str = '123';
 
 interface Window {
   mynane:string
@@ -42,7 +42,7 @@ interface Animal {
 interface Animal {
   age:number
 }
-let a:Animal = {name:'zf',age:10};
+let a:Animal = {name:'456',age:10};
 
 
 // 命名空间的合并

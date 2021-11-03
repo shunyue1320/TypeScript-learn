@@ -5,7 +5,7 @@ console.log('模块和命名空间 -------------------------------')
 // 1. 模块
 // 文件模块： 如果在你的 TypeScript 文件的根级别位置含有 import 或者 export，那么它会在这个文件中创建一个本地的作用域 。
 // 导出
-// export default 'zf'
+// export default '456'
 // index.ts导入
 // import name from './xxx'
 

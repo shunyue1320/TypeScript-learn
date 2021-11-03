@@ -4,12 +4,12 @@ console.log('装包和拆包 -------------------------------')
 
 // 求两个对象不同的部分
 let person1 = {
-  name: 'zhufeng',
+  name: '123',
   age: 11,
-  address: '回龙观'
+  address: '456'
 }
 let person2 = {
-  address: '回龙观',
+  address: '456',
 }
 type Diff<T extends object,K extends Object> = Omit<T,keyof K> // Omit忽略属性
 type DiffPerson = Diff<typeof person1,typeof person2>  // type DiffPerson = { name: string; age: number; }
@@ -19,12 +19,12 @@ type DiffPerson2 = Diff<typeof person2,typeof person1> // type DiffPerson = {}
 
 // 2. InterSection交集
 let person3 = {
-  name: 'zhufeng',
+  name: '123',
   age: 11,
-  address: '回龙观'
+  address: '456'
 }
 let person4 = {
-  address: '回龙观',
+  address: '456',
 }
 type InterSection<T extends object, K extends object> = Pick<T, Extract<keyof T, keyof K>> // Extract抽取类型 取交集
 type InterSectionPerson = InterSection<typeof person4, typeof person4> // type InterSectionPerson = { address: string; }

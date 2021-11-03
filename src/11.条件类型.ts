@@ -49,7 +49,7 @@ type MyNone = NonNullable<'a' | null | undefined> // type MyNone = "a"
 
 // ReturnType返回值类型
 function getUser(a: number, b: number) {
-  return { name: 'zf', age: 10 }
+  return { name: '456', age: 10 }
 }
 type ReturnType<T> = T extends (...args: any) => infer R ? R : never
 type MyReturn = ReturnType<typeof getUser> // type MyReturn = { name: string; age: number; }
